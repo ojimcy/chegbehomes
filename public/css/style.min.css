@@ -9581,6 +9581,7 @@ header .head-content {
   transition: all 0.2s;
   position: relative;
   z-index: 1;
+  background: #23282d;
 }
 header .head-content .head-content-box {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
