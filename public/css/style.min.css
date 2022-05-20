@@ -9581,7 +9581,7 @@ header .head-content {
   transition: all 0.2s;
   position: relative;
   z-index: 1;
-  background: #23282d;
+  /* background: #23282d; */
 }
 header .head-content .head-content-box {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -17001,4 +17001,10 @@ footer .foot .foot-bottom p {
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+}
+
+
+.welcomeImg {
+  width: 650px;
+  margin-left: 35px;
 }
