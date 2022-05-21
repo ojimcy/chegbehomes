@@ -18,6 +18,10 @@ app.get('/', (req, res) => {
     res.render('index');
 })
 
+app.get('/contact-us', (req, res) => {
+    res.render('contact-us');
+})
+
 const PORT = process.env.PORT || 3000
 
 app.listen(PORT, console.log(`Server started on ${PORT}`))
