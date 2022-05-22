@@ -18,8 +18,12 @@ app.get('/', (req, res) => {
     res.render('index');
 })
 
-app.get('/contact-us', (req, res) => {
-    res.render('contact-us');
+app.get('/about-us', (req, res) => {
+    res.render('about-us');
+})
+
+app.get('/private-haven', (req, res) => {
+    res.render('private-haven');
 })
 
 const PORT = process.env.PORT || 3000
