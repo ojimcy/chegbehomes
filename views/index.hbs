@@ -29,7 +29,7 @@
     </div>
     <div class="slider-block">
       <div
-        class="home-banner-bg lazy"
+        class="home-banner-bg lazy owl-courosel"
         data-bg-multi="linear-gradient(rgba(28,30,41,0.5),rgba(28,30,41,0.5)), url(/img/sh4.jpeg)"
       ></div>
       <div class="home-banner-box inner">
@@ -86,7 +86,7 @@
           <div class="img">
             <figure>
               <img
-                data-src="/img/privateHaven.jpeg"
+                data-src="/img/sh4.jpeg"
                 class="lazy"
                 alt="Chegbe Home Thumbnail"
                 title="Chegbe Home Thumbnail"
@@ -193,7 +193,7 @@
       <div class="block owl-lazy lazy" data-src="/img/privateHaven.jpeg">
         <div class="card-image">
           <a
-            href="/img/privateGaven.jpeg"
+            href="/img/privateHaven.jpeg"
             data-fancybox="gallery"
             data-caption="Caption Images 1"
           >
@@ -502,8 +502,8 @@
                   required="required"
                   aria-label="Full Name"
                   title="Full Name"
-                  name="input-4827384952"
-                  id="input-4827384952"
+                  name="name"
+                  id="name"
                   pattern=".{2,}"
                   minlength="2"
                   autocomplete="off"
@@ -511,15 +511,15 @@
               </div>
               <div class="form-group">
                 <input
-                  type="phone"
-                  placeholder="Phone Number..."
+                  type="text"
+                  placeholder="Subject..."
                   required="required"
-                  aria-label="Phone Number"
-                  title="Phone Number"
-                  name="input-6565436745"
-                  id="input-6565436745"
-                  pattern=".{5,}"
-                  minlength="5"
+                  aria-label="Subject"
+                  title="Subject"
+                  name="subject"
+                  id="subject" 
+                  pattern=".{2,}"
+                  minlength="2"
                   autocomplete="off"
                 />
               </div>
@@ -530,49 +530,21 @@
                   required="required"
                   aria-label="Email Address"
                   title="Email Address"
-                  name="input-646476547564"
-                  id="input-646476547564"
+                  name="email"
+                  id="email"
                   minlength="5"
                   autocomplete="off"
                 />
               </div>
-              {{! <div class="form-group select">
-                      <select
-                        name="service"
-                        required="required"
-                        aria-label="Service"
-                        title="Service"
-                        name="input-654745637546745"
-                        id="input-654745637546745"
-                      >
-                        <option value="" selected>Select Service</option>
-                        <option value="Architectural Homes">
-                          Architectural Homes
-                        </option>
-                        <option value="Custom Designed Homes">
-                          Custom Designed Homes
-                        </option>
-                        <option value="Commercial Construction">
-                          Commercial Construction
-                        </option>
-                        <option value="Residential Homes">
-                          Residential Homes
-                        </option>
-                        <option value="Remedial Building">
-                          Remedial Building
-                        </option>
-                        <option value="Other">Other</option>
-                      </select>
-                    </div> }}
               <div class="form-group">
                 <textarea
                   type="text"
-                  placeholder="Additional Information..."
+                  placeholder="Message..."
                   required="required"
-                  aria-label="Additional Information"
-                  title="Additional Information"
-                  name="input-5253246625643"
-                  id="input-5253246625643"
+                  aria-label="Message"
+                  title="Message"
+                  name="message"
+                  id="message"
                   maxlength="500"
                   pattern=".{0,500}"
                 ></textarea>
@@ -587,7 +559,7 @@
                   type="submit"
                   name="header_form_submit"
                   id="header_form_submit"
-                  class="btn red"
+                  class="submit btn red"
                   aria-label="Submit Form"
                   title="Submit Form"
                 >

@@ -10799,7 +10799,7 @@ header.head-small .head-content {
   display: -ms-flexbox;
   display: flex;
 }
-@media (max-width: 556px) {
+@media (max-width: 556px) {n
   .home-banner .home-banner-owl .owl-item .slider-block .home-banner-box {
     min-height: 100vh;
   }
