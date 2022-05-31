@@ -482,14 +482,14 @@
               <!-- Disable Captcha -->
               <input type="hidden" name="_captcha" value="false" />
 
-              <input type="hidden" name="_next" value="http://localhost:3000/success" />
+              <input type="hidden" name="_next" value="http://localhost:3000/form-success" />
 
               <div class="col-md-6">
                 <label for="firstName" class="form-label">First Name</label>
                 <input
                   type="text"
                   class="form-control"
-                  name="name"
+                  name="First&nbsp;Name"
                   id="firstName"
                   required
                 />
@@ -522,6 +522,15 @@
                   name="phone"
                   id="phoneNumber"
                   placeholder="+234 (806) 867-5309"
+                />
+              </div>
+              <div class="col-md-6">
+                <label for="lastName" class="form-label">Subject</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="subject"
+                  id="subject"
                 />
               </div>
               <div class="col-md-12">
