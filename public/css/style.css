@@ -1,3 +1,6 @@
+a {
+  text-decoration: none !important;
+}
 .welcomeImg {
   max-width: 650px;
 }
@@ -119,4 +122,9 @@ header
 header .head-content .head-content-box .login-link-and-hamburger .tel-link {
   color: #000 !important;
   border: 1px solid #000 !important;
+}
+
+header .head-content .head-content-box .dick-menu-link .tel-link {
+  color: #f6ba0b;
+    border: 1px solid #f6ba0b;
 }
