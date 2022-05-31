@@ -1,35 +1,24 @@
-const contactForm = document.querySelector('.contact-form')
+//get the form by its id
+const form = document.getElementById("contact-form"); 
 
-let name = document.getElementById('name')
-let email = document.getElementById('email')
-let subject = document.getElementById('subject')
-let message = document.getElementById('message')
+//1.
+const formEvent = form.addEventListener("submit", (event) => {
+  event.preventDefault();
 
-contactForm.addEventListener('submit', (e)=> {
-    e.preventDefault()
+ 
+  let mail = new FormData(form);
 
-    let formData = {
-        name: name.value,
-        email: email.value,
-        subject: subject.value,
-        message: message.value
-    }
 
-    let xhr = new XMLHttpRequest()
-    xhr.open('POST', '/')
-    xhr.setRequestHeader('content-type', 'application/json')
-    xhr.onload = function () {
-        console.log(xhr.responseText);
-        if (xhr.responseText = 'success') {
-            alert('Email sent  ')
-            name.value = ''
-            email.value = ''
-            subject.value = ''
-            message.value = ''
-        } else {
-            alert('Something not right')
-        }
-    }
-
-    xhr.send(JSON.stringify(formData))
+  sendMail(mail);
 })
+
+const sendMail = (mail) => {
+    fetch("/send", {
+      method: "post",
+      body: mail,
+  
+    }).then((response) => {
+      return response.json();
+    });
+  };
+  
