@@ -14259,7 +14259,7 @@ header.head-small .head-content {
 }
 @media (max-width: 767px) {
   .contact-us {
-    padding-top: 50px;
+    padding-top: 391px !important;
     padding-bottom: 50px;
   }
 }
@@ -14302,6 +14302,7 @@ header.head-small .head-content {
 @media (max-width: 767px) {
   .contact-us .contact-us-box {
     display: block;
+    padding-top: 80px !important;
   }
 }
 .contact-us .contact-us-box .left {
@@ -17001,3 +17002,5 @@ footer .foot .foot-bottom p {
   font-style: normal;
   font-display: swap;
 }
+
+

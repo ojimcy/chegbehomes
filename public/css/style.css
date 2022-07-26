@@ -128,3 +128,10 @@ header .head-content .head-content-box .dick-menu-link .tel-link {
   color: #f6ba0b;
     border: 1px solid #f6ba0b;
 }
+
+@media (max-width: 767px) {
+  .contact-us .contact-us-box{
+    padding-top: 391px !important;
+    padding-bottom: 50px;
+  }
+}
