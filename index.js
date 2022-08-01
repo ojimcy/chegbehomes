@@ -32,7 +32,7 @@ app.get('/form-success', (req, res) => {
 })
 
 app.get('/crowd-fund', (req, res) => {
-    res.render('crowd-fund');
+    res.render('crowd-fund' , { layout: "crowd" });
 })
 
 const PORT = process.env.PORT || 3000

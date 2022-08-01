@@ -327,3 +327,10 @@ header .head-content .head-content-box .dick-menu-link .tel-link {
     margin-top: -107px;
   }
 }
+
+.home-our-service-e-book .right .img {
+  top: 123px !important;
+  left: -131px !important;
+  width: 647px !important;
+  transform: rotate(-25deg) !important;
+}
