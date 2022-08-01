@@ -126,12 +126,204 @@ header .head-content .head-content-box .login-link-and-hamburger .tel-link {
 
 header .head-content .head-content-box .dick-menu-link .tel-link {
   color: #f6ba0b;
-    border: 1px solid #f6ba0b;
+  border: 1px solid #f6ba0b;
 }
 
 @media (max-width: 767px) {
-  .contact-us .contact-us-box{
+  .contact-us .contact-us-box {
     padding-top: 391px !important;
     padding-bottom: 50px;
+  }
+}
+
+.bg-img-dotted {
+  background-image: radial-gradient(
+    circle,
+    #d3d4d4,
+    #d3d4d4 1px,
+    transparent 1px
+  );
+  background-size: 8px 8px;
+}
+
+@media (min-width: 767px) {
+  .page-banner.service-banner .page-banner-box .content {
+    max-width: 100% !important;
+  }
+
+  .ccfpg {
+    height: 100vh !important;
+    justify-content: center !important;
+    text-align: center;
+  }
+
+  .ccfpg h1 {
+    font-size: 60px !important;
+    margin-bottom: 20px !important;
+    font-weight: normal !important;
+    -webkit-font-smoothing: antialiased !important;
+    font-family: mrs-eaves-xl-serif-narrow, serif !important;
+    font-style: normal !important;
+    white-space: normal;
+    text-shadow: inherit;
+    display: inline;
+    box-sizing: border-box;
+    transition: opacity 75ms linear 75ms !important;
+    visibility: visible;
+  }
+
+  .elRYEq {
+    font-size: 109px !important;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 0px;
+    -webkit-font-smoothing: antialiased;
+    font-family: mrs-eaves-xl-serif-narrow, serif;
+    text-indent: 0px;
+    text-transform: uppercase;
+    font-style: normal;
+    white-space: normal;
+    text-shadow: inherit;
+    display: inline;
+    opacity: 0.68;
+    box-sizing: border-box;
+    transition: opacity 75ms linear 75ms;
+    visibility: visible;
+  }
+
+  .gIPpXp {
+    font-size: 25px !important;
+    max-width: 100%;
+    margin-bottom: 11rem !important;
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: normal;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Gotham SSm A", "Gotham SSm B", Helvetica, Arial, sans-serif !important;
+    text-indent: 0px;
+    text-transform: uppercase;
+    font-style: normal;
+    white-space: normal;
+    text-shadow: inherit;
+    display: block;
+    opacity: 1;
+    box-sizing: border-box;
+    transition: opacity 75ms linear 150ms !important;
+    visibility: visible;
+  }
+}
+
+@media (max-width: 767px) {
+  .elRYEq {
+    font-size: 40px !important;
+    margin-bottom: 15px !important;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 0px;
+    -webkit-font-smoothing: antialiased;
+    font-family: mrs-eaves-xl-serif-narrow, serif;
+    text-indent: 0px;
+    text-transform: uppercase;
+    font-style: normal;
+    white-space: normal;
+    text-shadow: inherit;
+    display: inline;
+    opacity: 0.98;
+    box-sizing: border-box;
+    transition: opacity 75ms linear 75ms;
+    visibility: visible;
+  }
+
+  .ccfpg h1 {
+    margin-bottom: 3px !important;
+    font-size: 27px !important;
+    margin-top: 35px;
+  }
+}
+
+.color-yellow {
+  color: #f6ba0b !important;
+}
+
+.package-card {
+  min-height: 375px;
+  border: 1px solid #f6ba0b;
+  border-radius: 5px;
+  padding: 4rem 1.25rem 1rem;
+  margin-bottom: 10px;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #000000;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  color: #fff !important;
+}
+
+.package-card img {
+  position: relative;
+  width: auto;
+  height: 7rem;
+  top: -40px;
+}
+
+.package-card h1 {
+  font-family: "Gotham Bold";
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  line-height: 1.2;
+
+  /* padding: 10px 10px 14px 10px; */
+  border-style: solid;
+  border-width: 1px 0px 0px 1px;
+  border-color: #d0a54e;
+  margin-bottom: 25px !important;
+}
+
+.package-card p {
+  color: #ffffff;
+}
+
+.naira-card {
+  min-height: 375px;
+  border: 2px solid #f6ba0b;
+  border-radius: 5px;
+  padding: 4rem 1.25rem 1rem;
+  margin-bottom: 10px;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  color: #fff !important;
+}
+
+.naira-card h1 {
+  font-family: "Gotham Bold";
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  line-height: 1.2;
+
+  color: #23282d;
+  border-style: solid;
+  border-width: 0px 1px 1px 0px;
+  border-color: #d0a54e;
+  margin-bottom: 25px !important;
+}
+
+.naira-card img {
+  position: relative;
+  width: auto;
+  height: 7rem;
+  top: -40px;
+}
+
+@media (min-width: 796px) {
+  .under {
+    max-width: 490px;
+    margin-top: -107px;
   }
 }

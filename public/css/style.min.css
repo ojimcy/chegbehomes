@@ -10911,7 +10911,7 @@ header.head-small .head-content {
     .home-banner-box
     .content
     h2 {
-    font-size: 36px;
+    font-size: 27px;
   }
 }
 .home-banner
@@ -10966,7 +10966,7 @@ header.head-small .head-content {
     .home-banner-box
     .content
     p {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 }
 .home-banner
@@ -11460,6 +11460,9 @@ header.head-small .head-content {
 .home-about .home-about-box .content .right {
   width: 54.6%;
   padding-right: 20px;
+}
+.home-about .home-about-box .content .right h3 {
+  color: #ffffff;
 }
 @media (max-width: 992px) {
   .home-about .home-about-box .content .right {

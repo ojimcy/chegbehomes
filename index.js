@@ -31,6 +31,10 @@ app.get('/form-success', (req, res) => {
     res.render('form-success');
 })
 
+app.get('/crowd-fund', (req, res) => {
+    res.render('crowd-fund');
+})
+
 const PORT = process.env.PORT || 3000
 
 app.listen(PORT, console.log(`Server started on ${PORT}`))
