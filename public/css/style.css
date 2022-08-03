@@ -117,6 +117,7 @@ header
 .page-info {
   background-color: gray;
   padding: 5px;
+  max-width: 700px;
 }
 
 header .head-content .head-content-box .login-link-and-hamburger .tel-link {
