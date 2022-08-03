@@ -11,7 +11,7 @@ function HomeBarner(props) {
           <div className="slider-block">
             <div
               className="home-banner-bg lazy"
-              data-bg-multi="linear-gradient(rgba(28,30,41,0.5),rgba(28,30,41,0.5)), url(../public/images/sh4.jpeg)"
+              data-bg-multi="linear-gradient(rgba(28,30,41,0.5),rgba(28,30,41,0.5)), url('../../public/images/sh4.jpeg')"
             ></div>
             <div className="home-banner-box inner">
               <div className="content">
