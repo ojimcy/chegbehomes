@@ -1,4 +1,5 @@
 import { Fragment } from "react/cjs/react.production.min";
+import MainFooter from "./footer";
 
 import MainHeader from "./main-header";
 
@@ -7,6 +8,7 @@ function Layout(props) {
     <Fragment>
       <MainHeader />
       <main className="container">{props.children}</main>
+      <MainFooter />
     </Fragment>
   );
 }

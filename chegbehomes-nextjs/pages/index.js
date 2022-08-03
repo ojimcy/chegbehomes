@@ -1,7 +1,9 @@
-function HomePage() {
+import HomeBarner from "../components/barner";
+
+function HomePage(props) {
   return (
     <div>
-      <h1>Home</h1>
+      <HomeBarner  />
     </div>
   );
 }
