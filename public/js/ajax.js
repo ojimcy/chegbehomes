@@ -1,0 +1,2 @@
+var sameDomain = 0;
+
