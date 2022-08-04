@@ -117,6 +117,7 @@ header
 .page-info {
   background-color: gray;
   padding: 5px;
+  max-width: 700px;
 }
 
 header .head-content .head-content-box .login-link-and-hamburger .tel-link {
@@ -326,4 +327,11 @@ header .head-content .head-content-box .dick-menu-link .tel-link {
     max-width: 490px;
     margin-top: -107px;
   }
+}
+
+.home-our-service-e-book .right .img {
+  top: 123px !important;
+  left: -91px !important;
+  width: 647px !important;
+  transform: rotate(-25deg) !important;
 }
